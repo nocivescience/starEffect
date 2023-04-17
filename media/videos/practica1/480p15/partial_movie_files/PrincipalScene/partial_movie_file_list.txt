@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/ManimCE_V4/starEffect/media/videos/practica1/480p15/partial_movie_files/PrincipalScene/3163782288_2406545_2987249966.mp4'
