@@ -1,6 +1,5 @@
 from manim import *
 
-
 class MyStar(VMobject):
     CONFIG = {
         "start_time": 0,
@@ -64,7 +63,7 @@ class MyCurves(VMobject):
     def randomize_times(self):
         for submob in self.submobjects:
             if hasattr(submob, "total_time"):
-                T = 1/submob.frequency
+                T = 1/submob.CONFIG['cd_mob_config']['frequency']
                 submob.total_time = T*np.random.random()
 
     def get_lines(self):
